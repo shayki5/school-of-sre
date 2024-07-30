@@ -12,7 +12,7 @@
         <link rel="canonical" href="https://linkedin.github.io/school-of-sre/level101/linux_networking/intro/">
       
       <link rel="shortcut icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-6.2.8">
     
     
       
@@ -776,23 +776,13 @@
   
   
   
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-1-7" type="checkbox" id="nav-2-3-1-7" >
-      
-      <label class="md-nav__link" for="nav-2-3-1-7">
+    <li class="md-nav__item">
+      <a href="../../databases_sql/operations/" class="md-nav__link">
         Operational Concepts
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Operational Concepts" data-md-level="4">
-        <label class="md-nav__title" for="nav-2-3-1-7">
-          <span class="md-nav__icon md-icon"></span>
-          Operational Concepts
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
+      </a>
+    </li>
+  
+
           
             
   
@@ -814,12 +804,6 @@
       <a href="../../databases_sql/query_performance/" class="md-nav__link">
         Query Performance
       </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -929,11 +913,75 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-3" type="checkbox" id="nav-2-3-3" >
       
       <label class="md-nav__link" for="nav-2-3-3">
+        Message Queue
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Message Queue" data-md-level="3">
+        <label class="md-nav__title" for="nav-2-3-3">
+          <span class="md-nav__icon md-icon"></span>
+          Message Queue
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../messagequeue/intro/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../messagequeue/key_concepts/" class="md-nav__link">
+        Key Concepts
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../messagequeue/further_reading/" class="md-nav__link">
+        Conclusion
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-4" type="checkbox" id="nav-2-3-4" >
+      
+      <label class="md-nav__link" for="nav-2-3-4">
         Big Data
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Big Data" data-md-level="3">
-        <label class="md-nav__title" for="nav-2-3-3">
+        <label class="md-nav__title" for="nav-2-3-4">
           <span class="md-nav__icon md-icon"></span>
           Big Data
         </label>
@@ -2161,15 +2209,15 @@
                 <h1 id="linux-networking-fundamentals">Linux Networking Fundamentals</h1>
 <h2 id="prerequisites">Prerequisites</h2>
 <ul>
-<li>High-level knowledge of commonly used jargon in TCP/IP stack like  DNS, TCP, UDP and HTTP</li>
+<li>High-level knowledge of commonly used jargon in TCP/IP stack like DNS, TCP, UDP and HTTP</li>
 <li><a href="https://linkedin.github.io/school-of-sre/level101/linux_basics/command_line_basics/">Linux Commandline Basics</a></li>
 </ul>
 <h2 id="what-to-expect-from-this-course">What to expect from this course</h2>
 <p>Throughout the course, we cover how an SRE can optimize the system to improve their web stack performance and troubleshoot if there is an issue in any of the layers of the networking stack. This course tries to dig through each layer of traditional TCP/IP stack and expects an SRE to have a picture beyond the bird’s eye view of the functioning of the Internet.</p>
 <h2 id="what-is-not-covered-under-this-course">What is not covered under this course</h2>
-<p>This course spends time on the fundamentals. We are not covering concepts like <a href="https://en.wikipedia.org/wiki/HTTP/2">HTTP/2.0</a>, <a href="https://en.wikipedia.org/wiki/QUIC">QUIC</a>, <a href="https://en.wikipedia.org/wiki/TCP_congestion_control">TCP congestion control protocols</a>, <a href="https://en.wikipedia.org/wiki/Anycast">Anycast</a>, <a href="https://en.wikipedia.org/wiki/Border_Gateway_Protocol">BGP</a>, <a href="https://en.wikipedia.org/wiki/Content_delivery_network">CDN</a>, <a href="https://en.wikipedia.org/wiki/Virtual_private_network">Tunnels</a> and <a href="https://en.wikipedia.org/wiki/Multicast">Multicast</a>. We expect that this course will provide the relevant basics to understand such concepts</p>
+<p>This course spends time on the fundamentals. We are not covering concepts like <a href="https://en.wikipedia.org/wiki/HTTP/2">HTTP/2.0</a>, <a href="https://en.wikipedia.org/wiki/QUIC">QUIC</a>, <a href="https://en.wikipedia.org/wiki/TCP_congestion_control">TCP congestion control protocols</a>, <a href="https://en.wikipedia.org/wiki/Anycast">Anycast</a>, <a href="https://en.wikipedia.org/wiki/Border_Gateway_Protocol">BGP</a>, <a href="https://en.wikipedia.org/wiki/Content_delivery_network">CDN</a>, <a href="https://en.wikipedia.org/wiki/Virtual_private_network">Tunnels</a> and <a href="https://en.wikipedia.org/wiki/Multicast">Multicast</a>. We expect that this course will provide the relevant basics to understand such concepts.</p>
 <h2 id="birds-eye-view-of-the-course">Birds eye view of the course</h2>
-<p>The course covers the question “What happens when you open linkedin.com in your browser?” The course follows the flow of TCP/IP stack.More specifically, the course covers topics of Application layer protocols DNS and HTTP, transport layer protocols UDP and TCP, networking layer protocol IP and Data Link Layer protocol </p>
+<p>The course covers the question “What happens when you open <a href="https://www.linkedin.com">linkedin.com</a> in your browser?” The course follows the flow of TCP/IP stack. More specifically, the course covers topics of Application layer protocols (DNS and HTTP), transport layer protocols (UDP and TCP), networking layer protocol (IP) and data link layer protocol.</p>
 <h2 id="course-contents">Course Contents</h2>
 <ol>
 <li><a href="https://linkedin.github.io/school-of-sre/level101/linux_networking/dns/">DNS</a></li>

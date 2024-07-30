@@ -12,7 +12,7 @@
         <link rel="canonical" href="https://linkedin.github.io/school-of-sre/level101/systems_design/intro/">
       
       <link rel="shortcut icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-6.2.8">
     
     
       
@@ -706,23 +706,13 @@
   
   
   
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-1-7" type="checkbox" id="nav-2-3-1-7" >
-      
-      <label class="md-nav__link" for="nav-2-3-1-7">
+    <li class="md-nav__item">
+      <a href="../../databases_sql/operations/" class="md-nav__link">
         Operational Concepts
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Operational Concepts" data-md-level="4">
-        <label class="md-nav__title" for="nav-2-3-1-7">
-          <span class="md-nav__icon md-icon"></span>
-          Operational Concepts
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
+      </a>
+    </li>
+  
+
           
             
   
@@ -744,12 +734,6 @@
       <a href="../../databases_sql/query_performance/" class="md-nav__link">
         Query Performance
       </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -859,11 +843,75 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-3" type="checkbox" id="nav-2-3-3" >
       
       <label class="md-nav__link" for="nav-2-3-3">
+        Message Queue
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Message Queue" data-md-level="3">
+        <label class="md-nav__title" for="nav-2-3-3">
+          <span class="md-nav__icon md-icon"></span>
+          Message Queue
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../messagequeue/intro/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../messagequeue/key_concepts/" class="md-nav__link">
+        Key Concepts
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../messagequeue/further_reading/" class="md-nav__link">
+        Conclusion
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-4" type="checkbox" id="nav-2-3-4" >
+      
+      <label class="md-nav__link" for="nav-2-3-4">
         Big Data
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Big Data" data-md-level="3">
-        <label class="md-nav__title" for="nav-2-3-3">
+        <label class="md-nav__title" for="nav-2-3-4">
           <span class="md-nav__icon md-icon"></span>
           Big Data
         </label>
@@ -2193,13 +2241,12 @@
 </ul>
 <h2 id="introduction">Introduction</h2>
 <p>So, how do you go about learning to design a system?</p>
-<p><em>” Like most great questions, it showed a level of naivety that was breathtaking. The only short answer I could give was, essentially, that you learned how to design a system by designing systems and finding out what works and what doesn’t work.”
-Jim Waldo, Sun Microsystems, On System Design</em></p>
+<p>"<em>Like most great questions, it showed a level of naivety that was breathtaking. The only short answer I could give was, essentially, that you learned how to design a system by designing systems and finding out what works and what doesn’t work.</em>"&mdash;Jim Waldo, Sun Microsystems, On System Design</p>
 <p>As software and hardware systems have multiple moving parts, we need to think about how those parts will grow, their failure modes, their inter-dependencies, how it will impact the users and the business.</p>
 <p>There is no one-shot method or way to learn or do system design, we only learn to design systems by designing and iterating on them.</p>
-<p>This course will be a starter to make one think about scalability, availability, and fault tolerance during systems design.</p>
+<p>This course will be a starter to make one think about <em>scalability</em>, <em>availability</em>, and <em>fault tolerance</em> during systems design.</p>
 <h2 id="backstory">Backstory</h2>
-<p>Let’s design a simple content sharing application where users can share photos, media in our application which can be liked by their friends. Let’s start with a simple design of the application and evolve it as we learn system design concepts</p>
+<p>Let’s design a simple content sharing application where users can share photos, media in our application which can be liked by their friends. Let’s start with a simple design of the application and evolve it as we learn system design concepts.</p>
 <p><img alt="First architecture diagram" src="../images/first-architecture.jpg" /></p>
                 
               

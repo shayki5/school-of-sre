@@ -12,7 +12,7 @@
         <link rel="canonical" href="https://linkedin.github.io/school-of-sre/level102/containerization_and_orchestration/intro_to_containers/">
       
       <link rel="shortcut icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-6.2.8">
     
     
       
@@ -704,23 +704,13 @@
   
   
   
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-1-7" type="checkbox" id="nav-2-3-1-7" >
-      
-      <label class="md-nav__link" for="nav-2-3-1-7">
+    <li class="md-nav__item">
+      <a href="../../../level101/databases_sql/operations/" class="md-nav__link">
         Operational Concepts
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Operational Concepts" data-md-level="4">
-        <label class="md-nav__title" for="nav-2-3-1-7">
-          <span class="md-nav__icon md-icon"></span>
-          Operational Concepts
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
+      </a>
+    </li>
+  
+
           
             
   
@@ -742,12 +732,6 @@
       <a href="../../../level101/databases_sql/query_performance/" class="md-nav__link">
         Query Performance
       </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -857,11 +841,75 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-3" type="checkbox" id="nav-2-3-3" >
       
       <label class="md-nav__link" for="nav-2-3-3">
+        Message Queue
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Message Queue" data-md-level="3">
+        <label class="md-nav__title" for="nav-2-3-3">
+          <span class="md-nav__icon md-icon"></span>
+          Message Queue
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../level101/messagequeue/intro/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../level101/messagequeue/key_concepts/" class="md-nav__link">
+        Key Concepts
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../level101/messagequeue/further_reading/" class="md-nav__link">
+        Conclusion
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-4" type="checkbox" id="nav-2-3-4" >
+      
+      <label class="md-nav__link" for="nav-2-3-4">
         Big Data
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Big Data" data-md-level="3">
-        <label class="md-nav__title" for="nav-2-3-3">
+        <label class="md-nav__title" for="nav-2-3-4">
           <span class="md-nav__icon md-icon"></span>
           Big Data
         </label>
@@ -2371,7 +2419,7 @@ cpuacct — this subsystem generates automatic reports on CPU resources used by 
 </ul>
 <p><img alt="Fig 6" src="../images/cg6.png" /></p>
 <p>The process is OOM killed as expected. You can confirm the same with dmesg logs (mm_fault_error).</p>
-<p>If you want to try out a more in-depth exercise on cgroups, check out <a href="geeksforgeeks.org/linux-virtualization-resource-throttling-using-cgroups/">this tutorial from Geeks for Geeks</a>.</p>
+<p>If you want to try out a more in-depth exercise on cgroups, check out <a href="https://geeksforgeeks.org/linux-virtualization-resource-throttling-using-cgroups/">this tutorial from Geeks for Geeks</a>.</p>
 <p>Let’s come back to containers again. Containers share the same kernel as the underlying host operating system and provide an isolated environment of the application within. Cgroups help in managing resources used by processes within a container and namespaces help isolate network stack, pids, users, group ids and mount points in a container from another container running on the same host.</p>
 <p>Of course, there are more components to containers which truly make it fully functional but that discussion is out of scope of this module.</p>
 <h2 id="container-engine">Container engine</h2>

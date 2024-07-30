@@ -12,7 +12,7 @@
         <link rel="canonical" href="https://linkedin.github.io/school-of-sre/level101/metrics_and_monitoring/alerts/">
       
       <link rel="shortcut icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-6.2.8">
     
     
       
@@ -706,23 +706,13 @@
   
   
   
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-1-7" type="checkbox" id="nav-2-3-1-7" >
-      
-      <label class="md-nav__link" for="nav-2-3-1-7">
+    <li class="md-nav__item">
+      <a href="../../databases_sql/operations/" class="md-nav__link">
         Operational Concepts
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Operational Concepts" data-md-level="4">
-        <label class="md-nav__title" for="nav-2-3-1-7">
-          <span class="md-nav__icon md-icon"></span>
-          Operational Concepts
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
+      </a>
+    </li>
+  
+
           
             
   
@@ -744,12 +734,6 @@
       <a href="../../databases_sql/query_performance/" class="md-nav__link">
         Query Performance
       </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -859,11 +843,75 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-3" type="checkbox" id="nav-2-3-3" >
       
       <label class="md-nav__link" for="nav-2-3-3">
+        Message Queue
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Message Queue" data-md-level="3">
+        <label class="md-nav__title" for="nav-2-3-3">
+          <span class="md-nav__icon md-icon"></span>
+          Message Queue
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../messagequeue/intro/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../messagequeue/key_concepts/" class="md-nav__link">
+        Key Concepts
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../messagequeue/further_reading/" class="md-nav__link">
+        Conclusion
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-4" type="checkbox" id="nav-2-3-4" >
+      
+      <label class="md-nav__link" for="nav-2-3-4">
         Big Data
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Big Data" data-md-level="3">
-        <label class="md-nav__title" for="nav-2-3-3">
+        <label class="md-nav__title" for="nav-2-3-4">
           <span class="md-nav__icon md-icon"></span>
           Big Data
         </label>
@@ -2061,11 +2109,11 @@
 <p>Earlier we discussed different ways to collect key metric data points
 from a service and its underlying infrastructure. This data gives us a
 better understanding of how the service is performing. One of the main
-objectives of monitoring is to detect any service degradations early
+objectives of monitoring is to detect any service degradations early 
 (reduce Mean Time To Detect) and notify stakeholders so that the issues
 are either avoided or can be fixed early, thus reducing Mean Time To
 Recover (MTTR). For example, if you are notified when resource usage by
-a service exceeds 90 percent, you can take preventive measures to avoid
+a service exceeds 90%, you can take preventive measures to avoid
 any service breakdown due to a shortage of resources. On the other hand,
 when a service goes down due to an issue, early detection and
 notification of such incidents can help you quickly fix the issue.</p>
@@ -2076,12 +2124,12 @@ notification of such incidents can help you quickly fix the issue.</p>
 set up alerts on one or a combination of metrics to actively monitor the
 service health. These alerts have a set of defined rules or conditions,
 and when the rule is broken, you are notified. These rules can be as
-simple as notifying when the metric value exceeds n to as complex as a
-week over week (WoW) comparison of standard deviation over a period of
+simple as notifying when the metric value exceeds <em>n</em> to as complex as a
+week-over-week (WoW) comparison of standard deviation over a period of
 time. Monitoring tools notify you about an active alert, and most of
 these tools support instant messaging (IM) platforms, SMS, email, or
 phone calls. Figure 8 shows a sample alert notification received on
-Slack for memory usage exceeding 90 percent of total RAM space on the
+Slack for memory usage exceeding 90% of total RAM space on the
 host.</p>
                 
               

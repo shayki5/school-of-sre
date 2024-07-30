@@ -12,7 +12,7 @@
         <link rel="canonical" href="https://linkedin.github.io/school-of-sre/level101/security/writing_secure_code/">
       
       <link rel="shortcut icon" href="../../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.8">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-6.2.8">
     
     
       
@@ -706,23 +706,13 @@
   
   
   
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-1-7" type="checkbox" id="nav-2-3-1-7" >
-      
-      <label class="md-nav__link" for="nav-2-3-1-7">
+    <li class="md-nav__item">
+      <a href="../../databases_sql/operations/" class="md-nav__link">
         Operational Concepts
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Operational Concepts" data-md-level="4">
-        <label class="md-nav__title" for="nav-2-3-1-7">
-          <span class="md-nav__icon md-icon"></span>
-          Operational Concepts
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
+      </a>
+    </li>
+  
+
           
             
   
@@ -744,12 +734,6 @@
       <a href="../../databases_sql/query_performance/" class="md-nav__link">
         Query Performance
       </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -859,11 +843,75 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-3" type="checkbox" id="nav-2-3-3" >
       
       <label class="md-nav__link" for="nav-2-3-3">
+        Message Queue
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Message Queue" data-md-level="3">
+        <label class="md-nav__title" for="nav-2-3-3">
+          <span class="md-nav__icon md-icon"></span>
+          Message Queue
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../messagequeue/intro/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../messagequeue/key_concepts/" class="md-nav__link">
+        Key Concepts
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../messagequeue/further_reading/" class="md-nav__link">
+        Conclusion
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-4" type="checkbox" id="nav-2-3-4" >
+      
+      <label class="md-nav__link" for="nav-2-3-4">
         Big Data
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Big Data" data-md-level="3">
-        <label class="md-nav__title" for="nav-2-3-3">
+        <label class="md-nav__title" for="nav-2-3-4">
           <span class="md-nav__icon md-icon"></span>
           Big Data
         </label>
@@ -2281,7 +2329,7 @@
 </ul>
 <h3 id="refactoring">Refactoring</h3>
 <ul>
-<li>Refactoring is the most effective way to keep a codebase clean and simple. Even a healthy codebase occasionally needs to be</li>
+<li>Refactoring is the most effective way to keep a codebase clean and simple. Even a healthy codebase occasionally needs to be.</li>
 <li>Regardless of the reasons behind refactoring, you should always follow one golden rule: never mix refactoring and functional changes in a single commit to the code repository. Refactoring changes are typically significant and can be difficult to understand.</li>
 <li>If a commit also includes functional changes, there’s a higher risk that an author or reviewer might overlook bugs.</li>
 </ul>
@@ -2291,11 +2339,11 @@
 </ul>
 <h3 id="fuzz-testing">Fuzz Testing</h3>
 <ul>
-<li>Fuzz testing is a technique that complements the previously mentioned testing techniques. Fuzzing involves using a fuzzing engine to generate a large number of candidate inputs that are then passed through a fuzz driver to the fuzz target. The fuzzer then analyzes how the system handles the input. Complex inputs handled by all kinds of software are popular targets for fuzzing - for example, file parsers, compression algorithms, network protocol implementation and audio codec.</li>
+<li>Fuzz testing is a technique that complements the previously mentioned testing techniques. Fuzzing involves using a fuzzing engine to generate a large number of candidate inputs that are then passed through a fuzz driver to the fuzz target. The fuzzer then analyzes how the system handles the input. Complex inputs handled by all kinds of software are popular targets for fuzzing&mdash;for example, file parsers, compression algorithms, network protocol implementation and audio codec.</li>
 </ul>
 <h3 id="integration-testing">Integration Testing</h3>
 <ul>
-<li>Integration testing moves beyond individual units and abstractions, replacing fake or stubbed-out implementations of abstractions like databases or network services with real implementations. As a result, integration tests exercise more complete code paths. Because you must initialize and configure these other dependencies, integration testing may be slower and flakier than unit testing—to execute the test, this approach incorporates real-world variables like network latency as services communicate end-to-end. As you move from testing individual low-level units of code to testing how they interact when composed together, the net result is a higher degree of confidence that the system is behaving as expected.</li>
+<li>Integration testing moves beyond individual units and abstractions, replacing fake or stubbed-out implementations of abstractions like databases or network services with real implementations. As a result, integration tests exercise more complete code paths. Because you must initialize and configure these other dependencies, integration testing may be slower and flakier than unit testing&mdash;to execute the test, this approach incorporates real-world variables like network latency as services communicate end-to-end. As you move from testing individual low-level units of code to testing how they interact when composed together, the net result is a higher degree of confidence that the system is behaving as expected.</li>
 </ul>
 <h3 id="last-but-not-the-least">Last But not the least</h3>
 <ul>
